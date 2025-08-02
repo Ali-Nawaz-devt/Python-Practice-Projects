@@ -1,0 +1,7 @@
+friend_1=input("Enter your 1st friend list : ")
+friend_2=input("Enter your 2nd  friend list : ")
+friend_list=set(friend_1.split(" "))
+friend_list_2=set(friend_2.split(" "))
+print("Mutual Friends (Intersection) : ",friend_list.intersection(friend_list_2))
+print("All Friends (Union) : ",friend_list.union(friend_list_2))
+print("Unique Friends (Difference) : ",friend_list.difference(friend_list_2))
